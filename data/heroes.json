@@ -1,0 +1,23 @@
+{
+  "alex" : {
+    "name" : "Alex",
+    "desc" : "Un guerrier légendaire",
+    "sprite" : "alex.png",
+    "stats" : {
+      "attack": 20,
+      "defense" : 20,
+      "xp" : 0
+    }
+  },
+
+  "mary" : {
+    "name" : "Mary",
+    "desc" : "Une guerrière légendaire",
+    "sprite" : "mary.png",
+    "stats" : {
+      "attack": 20,
+      "defense" : 20,
+      "xp" : 0
+    }
+  }
+}

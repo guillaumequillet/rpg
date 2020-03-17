@@ -1,0 +1,23 @@
+{
+  "ennemy1" : {
+    "name" : "Ennemy 1",
+    "desc" : "Un premier ennemi de test",
+    "sprite" : "Bat.png",
+    "stats" : {
+      "attack": 10,
+      "defense" : 5,
+      "xp" : 10
+    }
+  }, 
+
+  "ennemy2" : {
+    "name" : "Ennemy 2",
+    "desc" : "Un second ennemi de test",
+    "sprite" : "Jack-O-Lantern.png",
+    "stats" : {
+      "attack": 20,
+      "defense" : 10,
+      "xp" : 20
+    }
+  }
+}

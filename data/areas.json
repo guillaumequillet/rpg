@@ -1,0 +1,8 @@
+{
+  "city" : {
+    "name" : "city",
+    "level" : 5,
+    "monsters" : ["ennemy1", "ennemy2"],
+    "to_draw" : ["city"]
+  }
+}
