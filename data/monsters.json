@@ -12,7 +12,7 @@
 
   "ennemy2" : {
     "name" : "Ennemy 2",
-    "desc" : "Un second ennemi de test",
+    "desc" : "Un deuxième ennemi de test",
     "sprite" : "Jack-O-Lantern.png",
     "stats" : {
       "attack": 20,
