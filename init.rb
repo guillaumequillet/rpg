@@ -12,13 +12,14 @@ require_relative 'lib/utils.rb'
 require_relative 'lib/obj_model.rb'
 require_relative 'lib/state.rb'
 require_relative 'lib/battle_state.rb'
+require_relative 'lib/map_state.rb'
 
 class Window < Gosu::Window
   def initialize
     super(640, 480, false)
     @font = Gosu::Font.new(24)
     load_party
-    @main_state = BattleState.new(self)
+    @main_state = MapState.new(self)
   end
 
   def needs_cursor?; true; end
@@ -56,6 +57,8 @@ class Window < Gosu::Window
 
   def draw
     @main_state.draw
+    @font ||= Gosu::Font.new(24)
+    @font.draw_text("FPS : #{Gosu::fps}", 10, 10, 1)
   end
 end
 
